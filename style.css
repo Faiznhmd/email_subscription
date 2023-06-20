@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+.content__wrapper {
+  background-color: #fff;
+  padding: 20px 20px 20px 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+}
+.content__wrapper .left__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.content__wrapper .left__wrapper .title {
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+.content__wrapper .left__wrapper .para {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.content__wrapper .left__wrapper .check__points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.content__wrapper .left__wrapper .check__points .point {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content__wrapper .left__wrapper .check__points .point .check__name {
+  font-size: 16px;
+}
+.content__wrapper .left__wrapper .form__label {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.content__wrapper .left__wrapper .email__input {
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+.content__wrapper .left__wrapper .email__input:focus {
+  border: none;
+}
+.content__wrapper .left__wrapper .submit__button {
+  all: unset;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  background-color: hsl(9.23, 100%, 64.31%);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.content__wrapper .right__wrapper {
+  width: 50%;
+}
+.content__wrapper .right__wrapper .image {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: hsl(235, 18%, 26%);
+}/*# sourceMappingURL=style.css.map */
